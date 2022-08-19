@@ -10,7 +10,6 @@ body {
   background-color: lightblue;
   display: flex;
   flex-direction: row;
-  height: 15em;
   align-items: center;
   justify-items: center;
 }
@@ -41,7 +40,6 @@ a {
 
 .nav_header {
   width: 60%;
-  margin-left: -30px;
 }
 
 .nav_list {
@@ -68,7 +66,6 @@ a {
 
 .footer {
   background-color: black;
-  height: 25vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -120,4 +117,43 @@ a {
 
 .fa:active {
   color: orange;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1400px) {
+  .header {
+    flex-direction: column;
+  }
+
+  header {
+    width: auto;
+  }
+
+  .logo {
+    padding-top: 10px;
+  }
+
+  .nav_header {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav_list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .li_link {
+    margin-bottom: 25px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-info {
+    text-align: center;
+  }
 }
