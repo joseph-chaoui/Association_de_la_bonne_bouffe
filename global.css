@@ -1,0 +1,18 @@
+main {
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.name {
+  font-size: 2em;
+  font-weight: 600;
+  text-align: right;
+}
+
+.agenda {
+  line-height: 30px;
+}
